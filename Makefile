@@ -1,5 +1,5 @@
 main:Calculmentale/main.o
-	g++ Calculmentale/main.o -o main
+	g++ Calculmentale/main.o -o Obacal
 
 
 Calculmentale/MC_tool.o:
@@ -10,4 +10,4 @@ Calculmentale/main.o:
 clean:
 	rm -f Calculmentale/*.o
 	rm -f *.o
-	rm -f main
+	rm -f Obacal
