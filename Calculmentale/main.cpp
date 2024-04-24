@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "../Calculmentale/main.h"
-#include<iostream>
+#include <iostream>
 
 int main(int argc, char *argv[]){
     MC_M_Version();
@@ -37,4 +37,7 @@ void MC_M_Analyse_entre(int argc, char *argv[]){
         }
     }
     
+}
+MC_M_Commande MC_M_Analyse_argument(char* mot){
+
 }
