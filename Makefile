@@ -11,6 +11,8 @@ clean:
 	rm -f Calculmentale/*.o
 	rm -f *.o
 	rm -f Obacal
+	rm -f Tool/*.o
+	rm -f Tool/MC_G_tool_test
 test:Tool/MC_G_tool_test
 	./Tool/MC_G_tool_test
 Tool/MC_G_tool_test:Tool/MC_G_tool_test.o Tool/MC_G_tool.o
