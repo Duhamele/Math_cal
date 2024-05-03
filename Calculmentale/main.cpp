@@ -38,6 +38,7 @@ void MC_M_Analyse_entre(int argc, char *argv[]){
     }
     
 }
+//TODO
 MC_M_Commande MC_M_Analyse_argument(char* mot){
 
 }

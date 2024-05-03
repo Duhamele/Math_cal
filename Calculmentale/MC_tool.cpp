@@ -9,7 +9,7 @@ int MC_T_randint(int a, int b){
     else{return rand()%(a-b+1)+b;}}
 }
 int MC_T_Bernoulli(float p){
-    float z =rand()/RAND_MAX;
+    float z =(float)rand()/(float)RAND_MAX;
     if(z>p){return 0;}
     else{return 1;}
 }

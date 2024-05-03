@@ -1,7 +1,7 @@
 #include "MC_G_tool.h"
 #include <cstdio>
-#define PASSE "\e[5;32mPASSE\e[0m\n"
-#define NOT "\e[5;31mREFUSE\e[0m\n"
+#include "test.h"
+
 bool test_MC_G_STR_Egaux(){
     char* mot_a="adfe\0";
     char* mot_b=mot_a;
