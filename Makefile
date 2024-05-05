@@ -13,6 +13,7 @@ clean:
 	rm -f Obacal
 	rm -f Tool/*.o
 	rm -f Tool/MC_G_tool_test
+	rm -f Calculmentale/test
 test:Tool/MC_G_tool_test Calculmentale/test
 	./Tool/MC_G_tool_test
 	./Calculmentale/test
