@@ -6,3 +6,4 @@ bool MC_G_STR_Egaux(char* mot_a,char* mot_b){
         if(mot_a[i]!=mot_b[i]){return false;}}
     return true;
 }
+void MC_G_register_arg_more_chararter(arg_more_chararter* option){}
